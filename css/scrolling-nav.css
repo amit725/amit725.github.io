@@ -3,7 +3,24 @@
  * Copyright 2013-2016 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
+/*my own styles*/
+.navbar-nav{
+    float: right;
+}
+.navbar{
+    background: #3E2723;
+}
+.nav a{
+    color: white!important;
+}
 
+.intro-section, .portfolio-section{
+    background-color: #263238!important;
+}
+.intro-section, .portfolio-section{
+    color:#f7f7f7!important;
+}
+/*background-color: #fafaf5;*/
 body {
     width: 100%;
     height: 100%;
@@ -45,7 +62,7 @@ of those sections to manage the look and feel of the site. */
     background: #eee;
 }
 
-.services-section {
+.portfolio-section {
     height: 100%;
     padding-top: 150px;
     text-align: center;
