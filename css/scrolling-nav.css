@@ -7,18 +7,24 @@
 .navbar-nav{
     float: right;
 }
-.navbar{
+/*.navbar{
     background: #3E2723;
+}*/
+.navbar-default{
+    background-color: #263238!important;
 }
 .nav a{
     color: white!important;
 }
 
 .intro-section, .portfolio-section{
-    background-color: #263238!important;
+    background-color: #dbe1e3!important;
 }
 .intro-section, .portfolio-section{
-    color:#f7f7f7!important;
+    color:black!important;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
+    background-color: #474e51;
 }
 /*background-color: #fafaf5;*/
 body {
