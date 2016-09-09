@@ -7,6 +7,15 @@
 .navbar-nav{
     float: right;
 }
+
+.parralax{
+    height: 500px;
+      /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 /*.navbar{
     background: #3E2723;
 }*/
@@ -53,31 +62,42 @@ html {
 /* Demo Sections - You can use these as guides or delete them - the scroller will work with any sort of height, fixed, undefined, or percentage based.
 The padding is very important to make sure the scrollspy picks up the right area when scrolled to. Adjust the margin and padding of sections and children 
 of those sections to manage the look and feel of the site. */
-
+.intro-section .parralax{
+        background-image: url("../images/image-one.jpg");
+    }
+   .about-section .parralax{
+        background-image: url("../images/image-two.jpg");
+    }
+    .portfolio-section .parralax{
+        background-image: url("../images/image-three.jpg");
+    }
+    .contact-section .parralax{
+        background-image: url("../images/image-four.jpg");
+    }
 .intro-section {
-    height: 100%;
-    padding-top: 150px;
+    /*height: 100%;*/
+    padding-top: 90px;
     text-align: center;
     background: #fff;
 }
 
 .about-section {
-    height: 100%;
-    padding-top: 150px;
+    /*height: 100%;*/
+    /*padding-top: 150px;*/
     text-align: center;
     background: #eee;
 }
 
 .portfolio-section {
-    height: 100%;
-    padding-top: 150px;
+    /*height: 100%;*/
+    /*padding-top: 150px;*/
     text-align: center;
     background: #fff;
 }
 
 .contact-section {
-    height: 100%;
-    padding-top: 150px;
+    /*height: 100%;*/
+    /*padding-top: 150px;*/
     text-align: center;
     background: #eee;
 }
